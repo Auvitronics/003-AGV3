@@ -1,0 +1,56 @@
+Establish the need/goal for the product - driven by customer - or the enterprise trying to anticipate a market
+Specification
+	Statement of the need
+	Design specifications
+	Testing specifications
+	Acceptance specifications
+	Development specifications
+	How the end-product will be maintained throughout it's lifetime
+	Sample headings:
+		Introduction
+		Performance
+		Life
+		Useful Life
+		Life between overhauls
+		Environment
+		Power
+		Reliability
+		Cost
+		Maintenance
+		Manufacturing Process
+		Physical Size and Weight
+System Conception
+	Conceptual design
+		Several design solutions
+		Different decision-making processes 
+			Comparison Charts, 
+			Category weighting, 
+			decision networks, 
+			moropholoogical analysis of decision making
+		Detailed design for ground-breaking concepts
+		Overall cost/benefit analysis
+Detailed Design
+	Engineering drawings
+	Material specifications
+	Assembly drawings
+	Docs detailing jobs of maintenance and production
+	Mechanism to allow design to be reviewed either continually or at key stages
+Design verification:
+	Analysis/Simulation of the design to ensure it meets the specifications
+Prototyping
+	Work with production department to produce models of a design
+	New production equipment or training needs to be identified early
+Testing
+	Of:
+		- Key components
+		- Complete advance prototypes
+		- Pre-production models
+	- Inhouse verification
+	- On-site customer validation (sign-off)
+Review and Documentation
+	- Rational behind the project (need, market, cost/benefit etc.)
+	- Specification
+	- Detailed design (explaining how it meets the specifications and how it works)
+	- User guides
+	- Maintenance guides
+

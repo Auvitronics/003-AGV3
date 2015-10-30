@@ -1,0 +1,42 @@
+turning postioning jhatkay
+- big motors will potentially solve the issue
+
+do away with line-following (software engineer)
+- inertial sensor
+- existing camera systems for detection (possible collision avoidance)
+
+
+six-wheels
+
+collision:
+- truck
+- blind spot (corner, center)
+- currently agv
+- while turning false detection of hurdle
+AVICS software 
+- smart detection objectsss
+
+Mechanical structure:
+- wheel alignment
+- structure (fibre glass)
+
+
+tugging and carrying are two different things:
+
+design 1: agv in-house , respondible for carrying
+design 2: IMC , responsible for tugging
+desgin 3: differential design, on paper, objectives unclear
+
+
+
+
+muhammad ali
+- material cost limit
+- design cost limit
+- shershah
+
+2 rupay to 200,000
+
+===================================
+AGV Project:
+
