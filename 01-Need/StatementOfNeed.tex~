@@ -53,17 +53,31 @@
 
 %%% The "real" document content comes below...
 
-\title{AUTOMATED GUIDED VEHICLE\\STATEMENT OF NEED}
-\author{FAISAL AFTAB}
+\title{Automated Guided Vehicle\\Statement Of Need}
+\author{Faisal Aftab, Munzir Zafar}
 %\date{} % Activate to display a given date or no date (if empty),
          % otherwise the current date is printed 
 
 \begin{document}
 \maketitle
-The primary need of Automated Guided Vehicle is to automate the process of transfering parts from production area to store.There are six moulding machine in production area and each machine production should be taken to store.The production area should not be used as the storage of the production part.\par The maximum utilization of production area is our basic concern.The production should be take care by the Automated guided vehicle.This help us to shape our production in organized way. \par Each machine have its own dedicated AGV which is responsible for transfering production of that particular machine to store.\par This project help us in reducing labour cost,consistency.Its also help us to move towards new technology and increase our company impression on our supplier and help us to motivate new supplier. 
+The primary need of Automated Guided Vehicle is to automate the process of transfering parts from production area to the storage area and vice versa. The basic concern is to maximize the utilization of the production floor. A large space in the production floor is currently being used for storage as well to store two kinds of materials: 
+\begin{itemize}
+ \item The input to the production machines which is the raw material to be processed.
+ \item The output from the production machines which is the value-added or finished material delivered by the machines.
+\end{itemize}
+The reason why production floor is used for storage is that the mechanism of tranfering material to and from the storage area is not efficient, thus a local storage in the production floor is needed to minimize delays. If the time it takes to take material from and to the floor is minimized, then there will be no need to use production floor for storage purposes. And the area thus freed can then be used to install more machines in the production floor.
 
-
-
-
+There currently are six moulding machines in the production area. But this number will potentially increase as more space is freed up. The input to and output from each machine has to be transfered from/to the store using \emph{Automated Guided Vehicles} (AGV). One suggestion is to dedicate one AGV to each machine. This AGV will be responsible for the following:
+\begin{enumerate}
+ \item Be loaded with the raw material at the storage area for the next production cycle
+ \item Deliver the raw material to the machine.
+ \item Wait for the finished output from the machine.
+ \item Be loaded with the value-added or finished product of the current cycle.
+ \item Deliver the loaded finished product to the storage area.
+ \item Repeat.
+\end{enumerate}
+This will work only if the speed of transfer is fast enough to cause mimimum delays between consecutive production cycles.
+Also since all AGVs will be using a single route for this purpose, meaning that only one AGV can pass through a single point of the route at a time, the AGVs should be equipped with an ability of traffic-control mechanism of some sort. 
+This suggestion of course is only a recommendation based on the intuition of the upper management. A thorough analysis needs to be carried out before one solution is finalized that minimizes the costs and maximizes the efficiency of the material transfer between production and storage space.
 
 \end{document}

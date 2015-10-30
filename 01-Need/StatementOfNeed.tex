@@ -1,0 +1,83 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\title{Automated Guided Vehicle\\Statement Of Need}
+\author{Faisal Aftab, Munzir Zafar}
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+\maketitle
+The primary need of Automated Guided Vehicle is to automate the process of transfering parts from production area to the storage area and vice versa. The basic concern is to maximize the utilization of the production floor. A large space in the production floor is currently being used for storage as well to store two kinds of materials: 
+\begin{itemize}
+ \item The input to the production machines which is the raw material to be processed.
+ \item The output from the production machines which is the value-added or finished material delivered by the machines.
+\end{itemize}
+The reason why production floor is used for storage is that the mechanism of tranfering material to and from the storage area is not efficient, thus a local storage in the production floor is needed to minimize delays. If the time it takes to take material from and to the floor is minimized, then there will be no need to use production floor for storage purposes. And the area thus freed can then be used to install more machines in the production floor.
+
+There currently are six moulding machines in the production area. But this number will potentially increase as more space is freed up. The input to and output from each machine has to be transfered from/to the store using \emph{Automated Guided Vehicles} (AGV). One suggestion is to dedicate one AGV to each machine. This AGV will be responsible for the following:
+\begin{enumerate}
+ \item Be loaded with the raw material at the storage area for the next production cycle.
+ \item Deliver the raw material to the machine in the production area.
+ \item Wait for the finished output from the machine.
+ \item Be loaded with the value-added or finished product of the current production cycle.
+ \item Deliver the loaded finished product to the storage area.
+ \item Repeat.
+\end{enumerate}
+This will work only if the speed of transfer is fast enough to cause mimimum delays between consecutive production cycles.
+Also since all AGVs will be using a single route for this purpose, meaning that only one AGV can pass through a single point of the route at a time, the AGVs should be equipped with an ability of traffic-control mechanism of some sort. 
+This suggestion of course is only a recommendation based on the intuition of the upper management. A thorough analysis needs to be carried out before one solution is finalized that minimizes the costs and maximizes the efficiency of the material transfer between production and storage space.
+
+\end{document}
